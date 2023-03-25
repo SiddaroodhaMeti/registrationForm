@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!-- <style>
+        bpdy{
+            padding: 0%;
+            margin: 10px;
+        }
+        input[type=text], input[type=password], input[type=checkbox],input[type=number],input[type=option] {
+                width: 100%;
+                margin: 8px 0px;
+                padding: 12px 20px;
+                display: inline-block;
+                border: 2px solid rgb(109, 8, 240);
+                box-sizing: border-box;
+            }
+
+    </style> -->
+</head>
+<body>
+    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; align-items: center;">Registration Form</h1>
+    <form action="" style="border: 2px solid black; justify-content: center;">
+
+        <table>
+            <tr>
+                <td> <label for="First">First Name : </label></td> 
+                <td><input type="text" name="First"  required id="First">(max 20 characters)</td>
+                
+            </tr> 
+            
+            <tr>
+                <td><label for="Last">Last Name : </label></td>
+                <td><input type="text" required name="Last" id="Last"></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Date Of Birth : </label></td>
+                <td><input type="date" name="DOB" id="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">E-mail : </label></td>
+                <td><input type="email" name="Email" id="Email"></td>
+            </tr>
+            <tr>
+                <td><label for="mob">Mob No : </label></td>
+                <td><input type="number" name="mob" id="mob">(max 20 characters)</td>
+            </tr>
+            <tr>
+                <td><label for="gend">Gender : </label></td>
+                <td><input type="radio" name="gend" id="gend">Male</td>
+                <td><input type="radio" name="gend" id="gend">Female</td>
+            </tr>
+            <tr>
+                <td><label for="addr">Address : </label></td>
+                <td><textarea name="addr" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="pswd">Password</label></td>
+                <td><input type="password" name="pswd" id="pswd"></td>
+            </tr>
+            <tr>
+                <td><label for="pin" >Pincode : </label></td>
+                <td><input type="number"  name="pin" id="pin"></td>
+            </tr>
+            <td>
+                <label for="3">Districts :</label>
+            </td>
+                <td>
+                    <select name="city" id="">
+                        <option value="">Select here</option>
+                        <option value="Manglore">Manglore</option>
+                        <option value="Delhi">Delhi</option>
+                            </select>
+                </td>
+            <tr>
+                <td><label for="state">State :</label></td>
+                <td><input type="text" name="state" id="state"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Country : </label></td>
+                <td><input type="text" name="country" id="coutry"></td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobbies : </label></td>
+                <td><input type="checkbox" name="hobby" id="hobby">Dancing</td>
+                <td><input type="checkbox" name="hobby" id="hobby">drawing</td>
+                <td><input type="checkbox" name="hobby" id="hobby">Others</td>
+                <!-- <td><input type="radio" name="hobby" id="hobby">Kabaddi</td> -->
+            </tr>
+        
+        </table>
+    </form>
+
+</body>
+</html>
